@@ -9,21 +9,32 @@
   <body>
     <div class="weather">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city" required />
-          <input type="submit" value="search" />
+        <form class="form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="input"
+          />
+          <input type="submit" value="search" class="button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Italy</h1>
-          <p>
-            Tuesday 15:15, scattered clouds
-            <br />
-            Humidity: 88%, Wind: 3.15km/h
-          </p>
+        <div class="data">
+          <div>
+            <h1 class="city">Italy</h1>
+            <p>
+              Tuesday 15:15, scattered clouds
+              <br />
+              Humidity: <strong>88%</strong>, Wind:<strong>3.15km/h</strong>
+            </p>
+          </div>
+          <div class="temperature">
+            <div class="icon">☀️</div>
+            <div class="value">18</div>
+            <div class="unit">°C</div>
+          </div>
         </div>
-        <div>☀️ 18°C</div>
       </main>
       <footer>
         This project was coded by
